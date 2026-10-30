@@ -75,3 +75,7 @@ learning-analytics-demo/
     ├── EyeGaze_vs_Instruction.png
     └── demo_video.mp4
 
+### Acknowledgements
+
+This work was carried out as part of my student assistant position within the Learning Technologies Research Group RWTH Aachen for the Teach-R project.
+
