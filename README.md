@@ -44,6 +44,8 @@ For the seat badges the mean X and Z coordinates are calcualted and used to plot
 
 ## Plots:
 
+![Post Session Analytics Start Page](media/post_session_analytics_page.png) 
+
 **Walking Path:** Teacher X/Z positions from movement events are used together with the rotation information. Path segments fade with time, recent segments higher density. There is a history parameter that can be changed by the user. Path color can be changed to be a single color or a color palete.
 
 **Classroom Coverage:** Heatmap of teacher's movement, classroom space covered by walking. Shows spatial density across the room. Color scale options present.
