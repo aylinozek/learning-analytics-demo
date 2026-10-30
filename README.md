@@ -1,4 +1,35 @@
-# Teach-R Post Session Analytics Visualisations Wiki
+# Teach-R Post Session Analytics Visualisations Project
+
+## Project Overview
+
+This project focuses on the development and exploration of interactive visualizations for post-session learning analytics within the Teach-R project.
+
+The aim was to explore different ways of representing student behaviour and classroom activity of the trainee (teacher) through interactive visualizations, making collected learning analytics data easier to inspect and interpret.
+
+This repository is a project showcase. It does not contain the original Teach-R application, its integrated source code, or the underlying learning-session data.
+
+## Development Process
+
+The work initially started with a standalone React prototype developed to experiment with different visualization approaches and evaluate their suitability for the available learning analytics data.
+
+Following this prototyping phase, the selected visualizations were further developed, modularized, and integrated into the existing Teach-R application as part of the post-session analytics interface.
+
+**Note:** This repository presents examples of the visualizations and documents my contribution to the project.
+
+## My Contribution
+
+My work focused on the visualization component of the post-session analytics interface. This included:
+
+- Explored different ways to represent student behaviour and classroom activity.
+
+- Developed and tested interactive visualization approaches.
+
+- Used React and Plotly to create visual representations of learning analytics data.
+
+- Modularized selected visualization components.
+
+- Integrated the visualizations into the existing Teach-R application.
+
 
 ## Data Channels: 
 
@@ -26,3 +57,21 @@ For the seat badges the mean X and Z coordinates are calcualted and used to plot
 **Instruction Frequency :** Density, i.e. border width, border opacity and background opacity, indicates instruction counts. Hover information gives the total number if instructions received by each student and the percentage of behaviour categories. User can click on a a student and choose between bar chart / waffle chart to see the behaivour category distributions and instruction counts.
 
 **Combined:** Movement path, eye gaze cone and student instructions combined in a single plot. Note: different from the previous eye gaze cone here the vertex is on the trainee location coming from the movement position data.
+
+
+## Repository Contents
+
+learning-analytics-demo/
+│
+├── README.md
+│
+└── media/
+    ├── Walking_Path.png
+    ├── Classroom_Coverage.png
+    ├── EyeGaze_Heatmap.png
+    ├── EyeGaze_Fading.png
+    ├── Instruction_Frequency.png
+    ├── Combined.png
+    ├── EyeGaze_vs_Instruction.png
+    └── demo_video.mp4
+
