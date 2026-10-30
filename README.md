@@ -63,19 +63,9 @@ For the seat badges the mean X and Z coordinates are calcualted and used to plot
 
 ## Repository Contents
 
-learning-analytics-demo/
-│
-├── README.md
-│
-└── media/
-    ├── Walking_Path.png
-    ├── Classroom_Coverage.png
-    ├── EyeGaze_Heatmap.png
-    ├── EyeGaze_Fading.png
-    ├── Instruction_Frequency.png
-    ├── Combined.png
-    ├── EyeGaze_vs_Instruction.png
-    └── demo_video.mp4
+README.md : Project overview and documentation.
+media/ : Screenshots and a demo video showcasing the visualizations.
+
 
 ### Acknowledgements
 
